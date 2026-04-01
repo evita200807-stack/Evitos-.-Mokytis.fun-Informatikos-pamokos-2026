@@ -14,3 +14,20 @@ Tada išvesk vieną iš atsakymų:
 "Dalinasi tik iš 5"
 "Nesidalina nei iš 2, nei iš 3, nei iš 5"
 """
+skaicius int(input('įveskite skaičių: '))
+if skaicius % 2 == 0 and skaicius % 3 == 0 and skaicius % 3 == 0:
+    print("Dalinasi iš 2, 3 ir 5")
+elif:
+    skaicius % 2  == 0 and skaicius skaicius % 3  == 0:
+    print("Dalinasi iš 2 ir 3")
+elif:
+    skaicius % 2 == 0:
+    print("Dalinasi tik iš 2")
+elif:
+    skaicius % 3 == 0:
+    print("Dalinasi tik iš 3")
+elif:
+ skaicius % 5 == 0:
+    print("Dalinasi tik iš 5")
+else:
+    print("Nesidalina nei iš 2, nei iš 3, nei iš 5")
