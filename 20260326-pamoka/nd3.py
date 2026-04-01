@@ -17,3 +17,9 @@ Pvz. 4953:
 - 22 min
 - 33 sek
 """
+sekundes = int(input("Įvesk sekundžių skaičių: "))
+valandos = sekundes // 3600 valandos = sekundes % 3600 
+minutes = valandos // 60 sekundes = valandos % 60 
+print(valandos, "val") 
+print(minutes, "min")
+ print(sekundes, "sek")
