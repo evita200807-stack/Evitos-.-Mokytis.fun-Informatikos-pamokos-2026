@@ -25,6 +25,9 @@ Skaitmenų suma: 5
 Didesnis yra vienetų skaitmuo: 3
 Atvirkštinis skaičius: 32
 
+''' 
+
+
 
 Įvesk skaičių: 74
 Įvestas skaičius: 74
@@ -42,3 +45,25 @@ Atvirkštinis skaičius: 47
 Skaičius nėra dviženklis
 
 """
+
+skaicius = int(input("Įvesk skaičių: ")) 
+if 10 <= skaicius <= 99: 
+    print(f"Įvestas skaičius: {skaicius}") 
+    print("Skaičius yra dviženklis") 
+    if skaicius % 2 == 0: 
+        print("Skaičius yra lyginis") 
+    else: 
+        print("Skaičius yra nelyginis")
+     desimtys = skaicius // 10 vienetai = skaicius % 10 
+     print(f"Dešimčių skaitmuo: {desimtys}")
+     print(f"Vienetų skaitmuo: {vienetai}") 
+     print(f"Skaitmenų suma: {desimtys + vienetai}") 
+      if desimtys > vienetai: 
+        print(f"Didesnis yra dešimčių skaitmuo: {desimtys}") 
+        elif vienetai > desimtys: 
+            print(f"Didesnis yra vienetų skaitmuo: {vienetai}")
+             else:
+             print("Skaitmenys yra lygūs") atvirkstinis = vienetai * 10 + desimtys 
+             print(f"Atvirkštinis skaičius: {atvirkstinis}") 
+             else:
+             print("Skaičius nėra dviženklis")
